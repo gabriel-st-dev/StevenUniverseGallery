@@ -1,0 +1,104 @@
+/* Resetando Valores */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Cabeçalho */
+
+header {
+    padding: 15px;
+    text-align: center;
+    background-color: #fa00bb;
+    color: #fff;
+    border-bottom:5px solid #3ce6ebe4;
+}
+
+/* Grid de Personagens */
+
+.container{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.personagens_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    padding: 15px;
+    margin: 1% 1%;
+
+
+}
+
+.card p{
+    padding: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fa00bb;
+    border-radius: 5px;
+    padding: 15px;
+    color:#eee;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #3ce6ebe4;
+    color: #fa00bb;
+}
+
+.personagem_image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border: 4px solid #3ce6ebe4;
+}
+
+#img1{
+    background-image: url('../img/garnet.jpg');
+}
+#img2{
+    background-image: url('../img/ametista.jpg');
+}
+#img3{
+    background-image: url('../img/perola.jpg');
+}
+#img4{
+    background-image: url('../img/diamante-rosa.jpg');
+}
+#img5{
+    background-image: url('../img/steven-universe.jpg');
+}
+#img6{
+    background-image: url('../img/greg-universe.jpg');
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #fa00bb;
+    color:#fff;
+    text-align: center;
+    border-top: 5px solid #3ce6ebe4;
+    padding: 80px;
+}
